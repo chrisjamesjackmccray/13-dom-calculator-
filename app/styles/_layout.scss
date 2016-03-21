@@ -1,0 +1,80 @@
+#numberOne {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  margin: 0 auto;
+}
+
+#numberTwo {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  margin: 0 auto;
+}
+
+@mixin operators {
+  margin: 5px 0 0 0;
+  padding: 10px 0 0 12px;
+}
+
+#addnumbers {
+  background-color: green;
+  color: white;
+  @include operators;
+
+}
+
+#addnumbers:hover {
+  background-color: black;
+}
+
+#subtractnumbers {
+  background-color: red;
+  color: white;
+  @include operators;
+}
+
+#subtractnumbers:hover {
+  background-color: black;
+}
+
+#dividenumbers {
+  background-color: brown;
+  color: white;
+  @include operators;
+
+}
+
+#dividenumbers:hover {
+  background-color: black;
+}
+
+#multiplynumbers {
+  background-color: deeppink;
+  color: white;
+  @include operators;
+}
+
+#multiplynumbers:hover {
+  background-color: black;
+}
+
+#answer {
+  width: 40px;
+  height: 40px;
+  background-color: lightgrey;
+}
+
+.whole {
+  width: 200px;
+  height: 200px;
+  background-color: none;
+}
+
+.opps {
+  width: 200px;
+  height: 35px;
+  margin: 0;
+}
