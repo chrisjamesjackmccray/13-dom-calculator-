@@ -1,12 +1,14 @@
 #numberOne {
-  width: 100px;
-  height: 20px;
-  background-color: green; }
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  color: white; }
 
 #numberTwo {
-  width: 100px;
+  width: 40px;
   height: 40px;
-  background-color: green; }
+  background-color: green;
+  color: white; }
 
 #addnumbers {
   background-color: green;
@@ -34,17 +36,24 @@
   color: white; }
 
 #multiplynumbers:hover {
+  background-color: black; }
+
+#answer {
+  width: 40px;
+  height: 40px;
   background-color: black; }
 
 #numberOne {
-  width: 100px;
-  height: 20px;
-  background-color: green; }
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  color: white; }
 
 #numberTwo {
-  width: 100px;
+  width: 40px;
   height: 40px;
-  background-color: green; }
+  background-color: green;
+  color: white; }
 
 #addnumbers {
   background-color: green;
@@ -72,4 +81,9 @@
   color: white; }
 
 #multiplynumbers:hover {
+  background-color: black; }
+
+#answer {
+  width: 40px;
+  height: 40px;
   background-color: black; }
