@@ -6,10 +6,6 @@ document
     var total = Number(leftbox) + Number(rightbox);
     document.querySelector("#answer").innerHTML = total;
 
-
-    // Function (numberOne, numberTwo) {
-    //   return numberOne + numberTwo;
-    // }
   });
 
 document
