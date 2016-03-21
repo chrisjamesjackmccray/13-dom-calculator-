@@ -1,30 +1,20 @@
+document
+  .querySelector("#addnumbers")
+  .addEventListener("click", function(e){
+    var leftbox = document.querySelector("#numberOne").value;
+    var rightbox = document.querySelector("#numberTwo").value;
 
-var a,b, result;
-function setValues() {
-  a = Number(document.getElementByID("numberOne").value);
-  b = Number(document.getElementByID("numberTwo").value);
-}
+    Function (numberOne, numberTwo) {
+      return numberOne + numberTwo
+    }
+  });
 
-function addNumbers() {
-  setValues();
-  result = number1 + number2;
-  alert("The Sum is equal to" +result)
-}
+  .querySelector("#subtractnumbers")
+  .addEventListener("click", function(e){
+    var leftbox = document.querySelector("#numberOne").value;
+    var rightbox = document.querySelector("#numberTwo").value;
 
-function subtractnumbers() {
-  setValues();
-  result = number1 - number2;
-  alert("The rest is equal to" +result)
-}
-
-function dividenumbers() {
-  setValues();
-  result = number1 / number2;
-  alert("The operation is equal to" +result)
-}
-
-function multiplynumbers() {
-  setValues();
-  result = number1 * number2;
-  alert("The operation is equal to" +result)
-}
+    Function (numberOne, numberTwo) {
+      return numberOne - numberTwo
+    }
+  });
